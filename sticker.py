@@ -22,7 +22,7 @@ def create_qr(data, path, title):
 	    border = 4,
 	)
 
-	img_bg = Image.open('sticker_modelo.png')
+	img_bg = Image.open('sticker_template.png')
 
 	#Some magic number to adjust the position
 	x = (img_bg.size[0] / 4) - 15
